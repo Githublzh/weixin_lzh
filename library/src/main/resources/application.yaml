@@ -14,7 +14,7 @@ spring:
    # 配置Redis的连接信息
    redis:
       # 这里换自己的IP
-      host: 127.0.0.1
+      host: 106.14.222.36
       port: 6379
       database: 15
 

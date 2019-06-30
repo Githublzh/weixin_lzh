@@ -8,8 +8,8 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@EntityScan("org.fkjava")
-@ComponentScan("org.fkjava")
+@EntityScan("com.example")
+@ComponentScan("com.example")
 public class SelfMenuApplication implements EventListenerConfig {
 
 	public static void main(String[] args) {

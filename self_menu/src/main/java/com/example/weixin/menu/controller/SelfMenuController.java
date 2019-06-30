@@ -13,7 +13,7 @@ import com.example.weixin.menu.domain.SelfMenu;
 import com.example.weixin.menu.service.SelfMenuService;
 
 @Controller
-@RequestMapping("/kemao_1/menu")
+@RequestMapping("/lzh_1/menu")
 public class SelfMenuController {
 
 	@Autowired

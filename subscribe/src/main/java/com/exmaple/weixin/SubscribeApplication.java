@@ -18,9 +18,9 @@ import com.example.commons.processors.EventMessageProcessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @SpringBootApplication
-@ComponentScan("org.fkjava")
-@EnableJpaRepositories("org.fkjava")
-@EntityScan("org.fkjava")
+@ComponentScan("com.example")
+@EnableJpaRepositories("com.example")
+@EntityScan("com.example")
 public class SubscribeApplication implements //
 		EventListenerConfig, //
 		// 得到Spring的容器
